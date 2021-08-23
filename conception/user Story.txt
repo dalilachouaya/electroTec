@@ -1,0 +1,20 @@
+
+***********************************************************************************************************************************************************
+             *                                             *     User Story   *                                                      *
+             *                                              ********************                                                     *
+             *                                                                                                                       *
+             *         1: Build Customer Profiles.                                                                                   *
+             *         2: A Guest register and use more features , then login and research for an item                               *
+             *         3: A User Choose items and its quantity , then send a request                                                 *
+             *         4: A User manage request (add , delete , update ) .                                                           *
+             *         5: A User Choose the payment type and give a location .                                                       *
+             *         6: A User receive the product and give a feedback .                                                           *
+             *         7: A User manage his profile (add , delete , update ) .                                                       *
+             *         8: A Seller register , then login and add a product to sell.                                                  *
+             *         9: A Seller manage his profile and the products (add , delete , update ) .                                    *  
+             *         10: An admin login then manage database ("add , delete , update" user/seller profile and products)            *  
+             *                                                                                                                       *
+             * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+
+
+                   
