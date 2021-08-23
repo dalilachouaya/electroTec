@@ -140,7 +140,7 @@ export default function OrderScreen(props) {
                         </div>
 
                         <div>
-                          {item.qty} x ${item.price} = ${item.qty * item.price}
+                          {item.qty} x {item.price} Dt = {item.qty * item.price} Dt
                         </div>
                       </div>
                     </li>
@@ -159,19 +159,19 @@ export default function OrderScreen(props) {
               <li>
                 <div className="row">
                   <div>Items</div>
-                  <div>${order.itemsPrice.toFixed(2)}</div>
+                  <div>{order.itemsPrice.toFixed(2)} Dt </div>
                 </div>
               </li>
               <li>
                 <div className="row">
                   <div>Shipping</div>
-                  <div>${order.shippingPrice.toFixed(2)}</div>
+                  <div>{order.shippingPrice.toFixed(2)} Dt</div>
                 </div>
               </li>
               <li>
                 <div className="row">
                   <div>Tax</div>
-                  <div>${order.taxPrice.toFixed(2)}</div>
+                  <div>{order.taxPrice.toFixed(2)} Dt</div>
                 </div>
               </li>
               <li>
@@ -180,7 +180,7 @@ export default function OrderScreen(props) {
                     <strong> Order Total</strong>
                   </div>
                   <div>
-                    <strong>${order.totalPrice.toFixed(2)}</strong>
+                    <strong>{order.totalPrice.toFixed(2)} Dt</strong>
                   </div>
                 </div>
               </li>
@@ -194,12 +194,12 @@ export default function OrderScreen(props) {
                     {errorPay && (
                       <MessageBox variant="danger">{errorPay}</MessageBox>
                     )}
-                    {loadingPay && <LoadingBox></LoadingBox>}
+                    {loadingPay && <LoadingBox/>}
 
                     <PayPalButton
                       amount={order.totalPrice}
                       onSuccess={successPaymentHandler}
-                    ></PayPalButton>
+                    />
                   </>
 
                   
@@ -209,7 +209,7 @@ export default function OrderScreen(props) {
 
             {userInfo.isAdmin && order.isPaid && !order.isDelivered && (
                 <li>
-                  {loadingDeliver && <LoadingBox></LoadingBox>}
+                  {loadingDeliver && <LoadingBox/>}
                   {errorDeliver && (
                     <MessageBox variant="danger">{errorDeliver}</MessageBox>
                   )}

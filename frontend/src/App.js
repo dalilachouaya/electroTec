@@ -122,7 +122,7 @@ function App() {
             exact
           />
 
-          <Route path="/" component={HomeScreen} exact></Route>
+          <Route path="/" component={HomeScreen} exact/>
         </main>
         <footer className="row center">All right reserved { new Date().getFullYear()}</footer>
       </div>

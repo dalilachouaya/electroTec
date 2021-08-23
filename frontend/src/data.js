@@ -9,8 +9,8 @@ const data = {
       isAdmin: true,
       isSeller: true,
       seller: {
-        name: 'Puma',
-        logo: '/images/logo192.png',
+        name: 'Samsung',
+        logo: '/images/logo.png',
         description: 'best seller',
         rating: 4.5,
         numReviews: 120,
@@ -23,8 +23,8 @@ const data = {
       isAdmin: true,
       isSeller: true,
       seller: {
-        name: 'Puma',
-        logo: '/images/logo192.png',
+        name: 'Apple',
+        logo: '/images/logo1.png',
         description: 'best seller',
         rating: 4.5,
         numReviews: 120,

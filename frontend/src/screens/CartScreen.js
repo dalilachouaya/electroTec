@@ -46,7 +46,7 @@ export default function CartScreen(props) {
                     src={item.image}
                     alt={item.name}
                     className="small"
-                  ></img>
+                  />
                 </div>
                 <div className="min-30">
                   <Link to={`/product/${item.product}`}>{item.name}</Link>
@@ -67,7 +67,7 @@ export default function CartScreen(props) {
                     ))}
                   </select>
                 </div>
-                <div>${item.price}</div>
+                <div>{item.price} Dt</div>
                 <div>
                   <button
                     type="button"
@@ -87,7 +87,7 @@ export default function CartScreen(props) {
         <ul>
           <li>
             <h2>
-              Subtotal ({cartItems.reduce((a, c) => a + c.qty, 0)} items) : $
+              Subtotal ({cartItems.reduce((a, c) => a + c.qty, 0)} items) : Dt
               {cartItems.reduce((a, c) => a + c.price * c.qty, 0)}
             </h2>
           </li>

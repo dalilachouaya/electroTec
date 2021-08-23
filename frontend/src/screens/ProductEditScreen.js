@@ -140,7 +140,7 @@ export default function ProductEditScreen(props) {
                 id="imageFile"
                 label="Choose Image"
                 onChange={uploadFileHandler}
-              ></input>
+                />
               {loadingUpload && <LoadingBox></LoadingBox>}
               {errorUpload && (
                 <MessageBox variant="danger">{errorUpload}</MessageBox>

@@ -17,13 +17,13 @@ export default function HomeScreen() {
   return (
     <div>
       {loading ? (
-        <LoadingBox></LoadingBox>
+        <LoadingBox/>
       ) : error ? (
         <MessageBox variant="danger">{error}</MessageBox>
       ) : (
         <div className="row center">
           {products.map((product) => (
-            <Product key={product._id} product={product}></Product>
+            <Product key={product._id} product={product}/>
           ))}
         </div>
       )}

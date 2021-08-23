@@ -48,7 +48,7 @@ export default function RegisterScreen(props) {
             placeholder="Enter name"
             required
             onChange={(e) => setName(e.target.value)}
-          ></input>
+          />
         </div>
         <div>
           <label htmlFor="email">Email address</label>
@@ -58,7 +58,7 @@ export default function RegisterScreen(props) {
             placeholder="Enter email"
             required
             onChange={(e) => setEmail(e.target.value)}
-          ></input>
+          />
         </div>
         <div>
           <label htmlFor="password">Password</label>
@@ -68,7 +68,7 @@ export default function RegisterScreen(props) {
             placeholder="Enter password"
             required
             onChange={(e) => setPassword(e.target.value)}
-          ></input>
+          />
         </div>
         <div>
           <label htmlFor="confirmPassword">Confirm Password</label>
@@ -78,7 +78,7 @@ export default function RegisterScreen(props) {
             placeholder="Enter confirm password"
             required
             onChange={(e) => setConfirmPassword(e.target.value)}
-          ></input>
+          />
         </div>
         <div>
           <label />
